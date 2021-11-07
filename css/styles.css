@@ -56,6 +56,7 @@ display:flex;
     flex-basis: calc(100%/3);
     ;
 }
+
 .menu-web li{
 list-style: none;
 margin-right: 20px; 
@@ -63,18 +64,68 @@ margin-right: 20px;
 
 .menu-web a{
 text-decoration:none;
-color: #212121;
 }
 
+.portfolio1{
+    color:#212121
+}
 
-.menu-web a:visited{
-color:#212121;
+.contact1{
+    color:#212121
+}
+
+.agency2{
+    color:#212121
+}
+
+.contact2{
+    color:#212121
 }
 
 .menu-web a:hover{
 color: #2196F3;
 transition: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
+}
+
+.agency1{
+position:relative;
+color:#2196F3 
+}
+
+.portfolio2{
+position:relative;
+color:#2196F3 
+}
+
+.agency1::after
+{
+content:"";
+
+width: 53px;
+height: 4px;
+
+background: #2196F3;
+border-radius: 2px;
+
+display:block;
+position:absolute;
+top: 45px;
+}
+
+.portfolio2::after
+{
+content:"";
+
+width: 53px;
+height: 4px;
+
+background: #2196F3;
+border-radius: 2px;
+
+display:block;
+position:absolute;
+top: 45px;
 }
 
 .contact-menu{
@@ -496,6 +547,7 @@ padding-left:100px;
 padding-top: 50px;
 display:flex;
 }
+
 .join-us{
 display:flex;
 flex-direction:column;
