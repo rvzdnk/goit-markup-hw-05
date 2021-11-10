@@ -6,6 +6,7 @@ width:1200px;
 .section{
 padding-top:94px;
 padding-bottom:94px;
+padding-left:120px;
 }
 
 .webnavi{
@@ -40,6 +41,7 @@ font-size: 26px;
 line-height: 1.19; 
 text-decoration: none;
 list-style:none;
+padding-left:0px;
 
 color: #2196F3;
 
@@ -241,7 +243,6 @@ cursor: pointer;
 .description{
 display:flex;
 justify-content:space-between;
-padding-left: 40px;
 }
 
 
@@ -293,6 +294,11 @@ color: #757575;
 }  
 
 /*What we do?*/
+.what-we-do-section{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
 .title-what-we-do{
 font-family: Roboto;
 font-style: normal;
@@ -310,6 +316,7 @@ color: #212121;
 display:flex;
 list-style: none;
 justify-content:center;
+padding-left:0;
 }
 
 .what-we-do-list li{
@@ -367,7 +374,8 @@ height: 294px;
 /*Our Team*/
 .team{
 height: 648px;
-background: #F5F4FA;
+background: #F5F4FA; 
+padding: left 80px;
 }
 
 .title-team{
@@ -391,6 +399,7 @@ display:flex;
 list-style: none;
 justify-content:center;
 align-items:center;
+padding-left:0;
 }
 
 .team-container li {
@@ -490,7 +499,6 @@ transition-duration: 250ms;
 /*Our clients*/
 .our-clients{
     display:flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -508,10 +516,11 @@ transition-duration: 250ms;
 .clients-list{
     list-style: none;
     display:flex;
+    padding-left:0;
 }
 
 .clients-list li{
-    padding-left:20px;
+    padding-right:20px;
 }
 
 .icon-client{
@@ -548,7 +557,7 @@ transition-duration: 250ms;
 .footer{
 height: 252px;
 background: #2F303A;
-padding-left:100px;
+padding-left: 120px;
 padding-top: 50px;
 display:flex;
 }
